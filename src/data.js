@@ -1,14 +1,16 @@
 // Skills icons - https://react-icons.github.io/react-icons/
 import {
+  FaJava,
+  FaAppStoreIos,
+  FaAndroid,
+  FaPython,
   FaHtml5,
   FaCss3Alt,
-  FaBootstrap,
-  FaReact,
-  FaGitAlt,
   FaGithubSquare,
   FaLink,
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiFlutter, SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { TbBrandKotlin } from "react-icons/tb";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -34,7 +36,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I have a passion for developing tools that make the life of others easier and more enjoyable.";
 
 /* Skills
  ************************************************************** 
@@ -43,13 +45,13 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
+    skill: <SiFlutter className="display-4" />,
+    name: "Dart and Flutter",
   },
   {
     id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
+    skill: <FaPython className="display-4" />,
+    name: "Python",
   },
   {
     id: 3,
@@ -58,31 +60,36 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
+    skill: <TbBrandKotlin className="display-4" />,
+    name: "Kotlin",
   },
   {
     id: 5,
-    skill: <FaReact className="display-4" />,
-    name: "React",
+    skill: <FaJava className="display-4" />,
+    name: "Java",
   },
   {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <FaAndroid className="display-4" />,
+    name: "Android Development",
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    skill: <FaAppStoreIos className="display-4" />,
+    name: "iOS Development",
   },
   {
     id: 8,
-    skill: <FaGitAlt className="display-4" />,
-    name: "Git",
+    skill: <FaHtml5 className="display-4" />,
+    name: "HTML5",
   },
   {
-    id: 9,
+    id: 8,
+    skill: <FaCss3Alt className="display-4" />,
+    name: "CSS",
+  },
+  {
+    id: 10,
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
