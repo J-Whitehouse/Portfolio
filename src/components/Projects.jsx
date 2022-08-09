@@ -37,9 +37,9 @@ export default function Projects() {
         );
         tempArray.length !== 0
           ? setMainProjects([...tempArray])
-          : setMainProjects([...tempData.slice(0, 3)]);
+          : setMainProjects([...tempData.slice(0, 4)]);
       } else {
-        setMainProjects([...tempData.slice(0, 3)]);
+        setMainProjects([...tempData.slice(0, 4)]);
       }
     },
     [data]
@@ -68,7 +68,7 @@ export default function Projects() {
           )}
           {mainProjects.length !== 0 && (
             <>
-              <Row xs={1} md={2} lg={3} className="g-4 justify-content-center">
+              <Row xs={1} md={2} lg={4} className="g-4 justify-content-center">
                 {mainProjects.map(function ({
                   id,
                   image,
@@ -89,7 +89,7 @@ export default function Projects() {
                   );
                 })}
               </Row>
-              {data.length > 3 && (
+              {data.length > 4 && (
                 <Container className="text-center mt-5">
                   <Link to="/All-Projects">
                     <Button

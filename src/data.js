@@ -1,17 +1,23 @@
 // Skills icons - https://react-icons.github.io/react-icons/
 import {
+  FaJava,
+  FaAppStoreIos,
+  FaAndroid,
+  FaPython,
   FaHtml5,
   FaCss3Alt,
-  FaBootstrap,
-  FaReact,
-  FaGitAlt,
   FaGithubSquare,
   FaLink,
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiFlutter, SiJavascript, SiUnrealengine } from "react-icons/si";
+import { TbBrandKotlin } from "react-icons/tb";
+import { CgCPlusPlus } from "react-icons/cg";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import classroomLibraryImage from "./images/flutter.png";
+import chatAppImage from "./images/swift-logo.png";
+import QuickVideoImage from "./images/javascript.png";
+import CPlusPlusImage from "./images/ISO_C++_Logo.svg.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -34,7 +40,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning about technology and I have a passion for developing tools that make the life of others easier and more enjoyable.";
 
 /* Skills
  ************************************************************** 
@@ -43,13 +49,13 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
+    skill: <SiFlutter className="display-4" />,
+    name: "Dart and Flutter",
   },
   {
     id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
+    skill: <FaPython className="display-4" />,
+    name: "Python",
   },
   {
     id: 3,
@@ -58,50 +64,76 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
+    skill: <TbBrandKotlin className="display-4" />,
+    name: "Kotlin",
   },
   {
     id: 5,
-    skill: <FaReact className="display-4" />,
-    name: "React",
-  },
-  {
+    skill: <FaJava className="display-4" />,
+    name: "Java",
+  },{
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <CgCPlusPlus className="display-4" />,
+    name: "C++",
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    skill: <FaAndroid className="display-4" />,
+    name: "Android Development",
   },
   {
     id: 8,
-    skill: <FaGitAlt className="display-4" />,
-    name: "Git",
+    skill: <FaAppStoreIos className="display-4" />,
+    name: "iOS Development",
   },
   {
     id: 9,
+    skill: <FaHtml5 className="display-4" />,
+    name: "HTML5",
+  },
+  {
+    id: 10,
+    skill: <FaCss3Alt className="display-4" />,
+    name: "CSS",
+  },
+  {
+    id: 11,
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 12,
+    skill: <SiUnrealengine className="display-4" />,
+    name: "Unreal Engine",
+  },
 ];
 
-// Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+// Resume link (string - "https://YourResumeUrl") 
+export const resume = "https://drive.google.com/file/d/1W5nXPesi7sk-gIZPgqwhBktPJHB8wfgA/view";
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["classroom_library", "QuickVideo", "chatApp", "HeapOfStudents"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "classroom_library",
+    image: classroomLibraryImage,
+  },
+  {
+    name: "QuickVideo",
+    image: QuickVideoImage,
+  },
+  {
+    name: "chatApp",
+    image: chatAppImage,
+  },
+  {
+    name: "HeapOfStudents",
+    image: CPlusPlusImage,
   },
 ];
 
@@ -110,4 +142,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xknenwvr";
