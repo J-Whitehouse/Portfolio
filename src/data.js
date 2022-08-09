@@ -9,14 +9,10 @@ import {
   FaGithubSquare,
   FaLink,
 } from "react-icons/fa";
-<<<<<<< HEAD
 import { SiFlutter, SiJavascript, SiUnrealengine } from "react-icons/si";
 import { TbBrandKotlin } from "react-icons/tb";
 import { CgCPlusPlus } from "react-icons/cg";
-=======
-import { SiFlutter, SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
-import { TbBrandKotlin } from "react-icons/tb";
->>>>>>> 5c1d0a70b5eb6e2768776b8aff10714886fc23a6
+
 
 // Projects Images (add your images to the images directory and import below)
 import classroomLibraryImage from "./images/flutter.png";
@@ -44,12 +40,7 @@ export const Blog = <FaLink />;
  **************************************************************
   Add a second paragraph for the about me section.
 */
-export const moreInfo =
-<<<<<<< HEAD
-  "I enjoy learning about technology and I have a passion for developing tools that make the life of others easier and more enjoyable.";
-=======
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I have a passion for developing tools that make the life of others easier and more enjoyable.";
->>>>>>> 5c1d0a70b5eb6e2768776b8aff10714886fc23a6
+export const moreInfo = "I enjoy learning about technology and I have a passion for developing tools that make the life of others easier and more enjoyable.";
 
 /* Skills
  ************************************************************** 
@@ -80,8 +71,9 @@ export const skillData = [
     id: 5,
     skill: <FaJava className="display-4" />,
     name: "Java",
-<<<<<<< HEAD
-  },{
+
+  },
+  {
     id: 6,
     skill: <CgCPlusPlus className="display-4" />,
     name: "C++",
@@ -108,31 +100,7 @@ export const skillData = [
   },
   {
     id: 11,
-=======
-  },
-  {
-    id: 6,
-    skill: <FaAndroid className="display-4" />,
-    name: "Android Development",
-  },
-  {
-    id: 7,
-    skill: <FaAppStoreIos className="display-4" />,
-    name: "iOS Development",
-  },
-  {
-    id: 8,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
-  },
-  {
-    id: 8,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS",
-  },
-  {
-    id: 10,
->>>>>>> 5c1d0a70b5eb6e2768776b8aff10714886fc23a6
+
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
