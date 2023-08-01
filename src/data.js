@@ -40,7 +40,7 @@ export const Blog = <FaLink />;
  **************************************************************
   Add a second paragraph for the about me section.
 */
-export const moreInfo = "I enjoy learning about technology and I have a passion for developing tools that make the life of others easier and more enjoyable.";
+export const moreInfo = "I am a dedicated software developer with a passion for creating innovative applications that make a difference. With a strong background in various programming languages and a keen eye for detail, I strive to develop software that not only meets business needs but also creates a positive impact on users. I believe in the power of technology to solve problems and improve lives, and I am always looking for new challenges that allow me to apply my skills in meaningful ways. My goal is to create applications that are not only functional and user-friendly, but also make a significant contribution to the community.";
 
 /* Skills
  ************************************************************** 
