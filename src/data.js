@@ -75,8 +75,8 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <CgCPlusPlus className="display-4" />,
-    name: "C++",
+    skill: <CgSharp className="display-4" />,
+    name: "C#",
   },
   {
     id: 7,
